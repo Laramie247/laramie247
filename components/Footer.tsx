@@ -26,7 +26,7 @@ export default function Footer() {
                 <div className="grid grid-cols-12 gap-4 items-center">
                     {/* Logo - spans 3 columns */}
                     <div className="col-span-3">
-                        <Logo />
+                        <Logo width={100} height={75} />
                     </div>
 
                     {/* Copyright - spans 6 columns */}
