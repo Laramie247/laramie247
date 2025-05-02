@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Logo from "./logo";
+import LiveBroadcastButton from './LiveBroadcastButton';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 interface NavigationItem {
@@ -35,23 +36,26 @@ export default function Navigation() {
                         </Link>
                     </div>
 
-                    {/* Desktop Navigation */}
-                    <div className="hidden md:flex col-span-9 justify-end space-x-8 items-center">
-                        {navigationItems.map((item) => (
+                    {/* Desktop Navigation with Live Broadcast */}
+                    <div className="hidden md:flex col-span-9 justify-end items-center">
+                        <div className="flex items-center space-x-8">
+                            <LiveBroadcastButton />
+                            {navigationItems.map((item) => (
+                                <Link
+                                    key={item.href}
+                                    href={item.href}
+                                    className="hover:text-gray-300 transition-colors duration-200"
+                                >
+                                    {item.label}
+                                </Link>
+                            ))}
                             <Link
-                                key={item.href}
-                                href={item.href}
-                                className="hover:text-gray-300 transition-colors duration-200"
+                                href="/donate"
+                                className="bg-indigo-700 hover:bg-blue-800 text-white px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-amber-500/50 font-bold"
                             >
-                                {item.label}
+                                Donate
                             </Link>
-                        ))}
-                        <Link
-                            href="/donate"
-                            className="bg-indigo-700 hover:bg-blue-800 text-white px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-amber-500/50 font-bold"
-                        >
-                            Donate
-                        </Link>
+                        </div>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -87,6 +91,7 @@ export default function Navigation() {
                             </button>
                         </div>
                         <div className="flex flex-col space-y-4">
+                            <LiveBroadcastButton />
                             {navigationItems.map((item) => (
                                 <Link
                                     key={item.href}
