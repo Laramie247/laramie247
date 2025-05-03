@@ -35,7 +35,7 @@ const tiers = [
         benefits: [
             "All Prairie Listener benefits plus",
             "Studio Time + Gear: Monthly access to Blackmagic Design equipment and our staff to film your show",
-            "Swag Pack: T-shirt with Laramie 247 logo and the tagline 'Made in Laramie, Streamed Worldwide'",
+            "Swag Pack: T-shirt with Laramie 247 logo and the tagline &quot;Made in Laramie, Streamed Worldwide&quot;",
             "On-Air Shout-Out: Your name or local business featured in the credits of Laramie247 productions",
             "Free Access to all of our Workshops!"
         ]
@@ -49,7 +49,7 @@ const tiers = [
         benefits: [
             "All Jackalope producer benefits plus",
             "Invited to all quarterly round-table on the range meetings",
-            "Giving an opportunity to select the next quarter's programming schedule",
+            "Giving an opportunity to select the next quarter&apos;s programming schedule",
             "Name on Legendary Jackalope Plaque",
             "And a seat at our annual Wyoming style cookout honoring top supporters"
         ]
@@ -66,7 +66,7 @@ export default function MembershipPage() {
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Support local media and get exclusive benefits with our membership tiers.
-                        Choose the level that's right for you and help keep Laramie's voice strong.
+                        Choose the level that&apos;s right for you and help keep Laramie&apos;s voice strong.
                     </p>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
