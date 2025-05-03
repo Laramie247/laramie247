@@ -12,14 +12,21 @@ interface NavigationItem {
 }
 
 const navigationItems: NavigationItem[] = [
-    {
-        label: "Home",
-        href: "/"
-    },
+
     {
         label: "About",
         href: "/about"
     },
+    {
+        label: 'Community Events',
+        href: '/event_board'
+    },
+    {
+        label: 'Membership',
+        href: '/membership'
+    },
+
+
 ];
 
 export default function Navigation() {
@@ -51,7 +58,7 @@ export default function Navigation() {
                             ))}
                             <Link
                                 href="/donate"
-                                className="bg-accent hover:bg-accent/90 text-primary-dark px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-accent/50 font-bold"
+                                className="bg-accent hover:bg-accent/90 text-primary-light px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-accent/50 font-bold"
                             >
                                 Donate
                             </Link>
