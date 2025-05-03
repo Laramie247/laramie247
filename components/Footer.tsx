@@ -21,7 +21,7 @@ const socialLinks = [
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white py-6">
+        <footer className="bg-primary-dark text-primary-light py-6">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-12 gap-4 items-center">
                     {/* Logo - spans 3 columns */}
@@ -44,7 +44,7 @@ export default function Footer() {
                                 href={link.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white hover:text-gray-300 transition-colors duration-200"
+                                className="text-primary-light hover:text-accent/90 transition-colors duration-200"
                                 aria-label={link.name}
                             >
                                 <link.icon className="w-5 h-5" />

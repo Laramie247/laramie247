@@ -26,7 +26,7 @@ export default function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-black text-white py-4">
+        <nav className="bg-primary-light text-primary-dark py-4">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-12 gap-4 items-center">
                     {/* Logo */}

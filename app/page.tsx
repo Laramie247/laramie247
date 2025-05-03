@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <main>
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-white mb-8">Welcome to Laramie 24x7</h1>
+        <h1 className="text-3xl font-bold text-primary-dark mb-8">Welcome to Laramie 24x7</h1>
         <div className="grid gap-8 text-white">
           <section>
             <h2 className="text-2xl font-semibold mb-4">Latest Updates</h2>
-            <p className="text-gray-300">
+            <p className="text-gray-800">
               Stay tuned for the latest news and events from Laramie, Wyoming.
             </p>
           </section>
