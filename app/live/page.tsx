@@ -1,5 +1,4 @@
 import LiveStream from '@/components/LiveStream';
-import { classes } from '@/lib/theme';
 
 export const metadata = {
     title: 'Live Broadcast | Laramie 24x7',
@@ -9,8 +8,8 @@ export const metadata = {
 export default function LivePage() {
     return (
         <main>
-            <div className={classes.container}>
-                <h1 className={classes.pageTitle}>Live Broadcast</h1>
+            <div className="container mx-auto px-4 py-8">
+                <h1 className="text-3xl font-bold text-white mb-8">Live Broadcast</h1>
                 <LiveStream />
             </div>
         </main>
