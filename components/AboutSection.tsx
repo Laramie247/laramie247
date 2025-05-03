@@ -7,7 +7,7 @@ export default function AboutSection() {
                 </h2>
                 <div className="max-w-4xl mx-auto">
                     <p className="text-lg text-gray-700 mb-6">
-                        Laramie247 is Laramie's voice on the screen. We're a public access TV station powered by the people who live here. We're politically neutral, citizen grounded, and 100% local.
+                        Laramie247 is Laramie&apos;s voice on the screen. We&apos;re a public access TV station powered by the people who live here. We&apos;re politically neutral, citizen grounded, and 100% local.
                     </p>
                     <p className="text-lg text-gray-700 mb-6">
                         For years, creating a community television station in Laramie was out of reach. The cost was too high, and the tools too limited. But now, with affordable gear from Blackmagic Design and streaming access through Roku, what once felt impossible is finally real.

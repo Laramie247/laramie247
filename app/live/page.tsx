@@ -13,7 +13,7 @@ export default function Live() {
                 <LiveStream />
             </div>
             <div className="container text-white mx-auto px-4 py-8">
-                <h1 className="text-2xl font-bold mb-4">We're on Roku!</h1>
+                <h1 className="text-2xl font-bold mb-4">We&apos;re on Roku!</h1>
                 <p className="mb-4">Check out our channel: <a
                     href="https://channelstore.roku.com/details/f8b5e6a0234979a1e45d6528f872fc51:ccea0f52ff39c2fb4536d79122ebe8ac/laramie247"
                     target="_blank"
@@ -28,23 +28,23 @@ export default function Live() {
                     </li>
                     <li className="flex gap-2">
                         <span className="text-gray-400">2.</span>
-                        <span>Scroll down and select "Streaming Store" from the main menu</span>
+                        <span>Scroll down and select &quot;Streaming Store&quot; from the main menu</span>
                     </li>
                     <li className="flex gap-2">
                         <span className="text-gray-400">3.</span>
-                        <span>Select the "Search" box and type in "Laramie247"</span>
+                        <span>Select the &quot;Search&quot; box and type in &quot;Laramie247&quot;</span>
                     </li>
                     <li className="flex gap-2">
                         <span className="text-gray-400">4.</span>
-                        <span>Select "Laramie247" from the list of search results</span>
+                        <span>Select &quot;Laramie247&quot; from the list of search results</span>
                     </li>
                     <li className="flex gap-2">
                         <span className="text-gray-400">5.</span>
-                        <span>Select "Add App"</span>
+                        <span>Select &quot;Add App&quot;</span>
                     </li>
                     <li className="flex gap-2">
                         <span className="text-gray-400">6.</span>
-                        <span>Select "Ok" when the channel has been added</span>
+                        <span>Select &quot;Ok&quot; when the channel has been added</span>
                     </li>
                     <li className="flex gap-2">
                         <span className="text-gray-400">7.</span>

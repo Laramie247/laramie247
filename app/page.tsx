@@ -14,7 +14,7 @@ export default function Home() {
               Our members come from all walks of life. At Laramie247, our goal is to be an impartial voice of reason. We focus on fair and balanced programming created by our diverse membership.
             </p>
             <p className="text-lg text-gray-700">
-              We don't play favorites, and we don't take sides in political debates. Instead, we are committed to delivering informative content that encourages dialogue across different viewpoints and beliefs. No matter where you stand politically or spiritually, there's a place for your voice here.
+              We don&apos;t play favorites, and we don&apos;t take sides in political debates. Instead, we are committed to delivering informative content that encourages dialogue across different viewpoints and beliefs. No matter where you stand politically or spiritually, there&apos;s a place for your voice here.
             </p>
           </section>
 

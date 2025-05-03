@@ -9,7 +9,7 @@ export default function Hero() {
                     {/* Text Content */}
                     <div className="flex flex-col justify-center text-center md:text-left">
                         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-primary-light mb-4">
-                            Laramie's Voice. Streaming 24/7
+                            Laramie&apos;s Voice. Streaming 24/7
                         </h1>
                         <p className="text-sm md:text-2xl sm:text-xl  text-gray-200 mb-8">
                             Grassroots news and shows, made in Laramie. <br /> Watch on Roku anytime.

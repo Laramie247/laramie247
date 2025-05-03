@@ -10,7 +10,7 @@ const EventBoardPage: React.FC = () => {
                 <Image src={frakenfurterferret} alt="Frankfurter Ferret" />
             </div>
             <p className="text-2xl font-bold text-primary-dark mb-8">Frankfurter Ferret</p>
-            <p className="text-lg text-gray-600 mb-8">I haven't gotten to this page yet. Enjoy this QUEEN of a ferret -love, Kelly</p>
+            <p className="text-lg text-gray-600 mb-8">I haven&apos;t gotten to this page yet. Enjoy this QUEEN of a ferret -love, Kelly</p>
         </div>
     );
 };
