@@ -32,7 +32,7 @@ export default function Navigation() {
                     {/* Logo */}
                     <div className="col-span-3">
                         <Link href="/" aria-label="Home">
-                            <Logo />
+                            <Logo width={120} height={75} />
                         </Link>
                     </div>
 
@@ -51,7 +51,7 @@ export default function Navigation() {
                             ))}
                             <Link
                                 href="/donate"
-                                className="bg-indigo-700 hover:bg-blue-800 text-white px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-amber-500/50 font-bold"
+                                className="bg-accent hover:bg-accent/90 text-primary-dark px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-accent/50 font-bold"
                             >
                                 Donate
                             </Link>
@@ -63,7 +63,7 @@ export default function Navigation() {
                         <div className="flex justify-end">
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
-                                className="text-white focus:outline-none"
+                                className="text-primary-dark focus:outline-none"
                                 aria-label="Toggle menu"
                                 aria-expanded={isOpen}
                             >
@@ -75,7 +75,7 @@ export default function Navigation() {
 
                 {/* Mobile Navigation - Slide-out sidebar */}
                 <div
-                    className={`fixed top-0 right-0 h-full w-64 bg-black transform transition-transform duration-300 ease-in-out z-50 md:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
+                    className={`fixed top-0 right-0 h-full w-64 bg-primary-light transform transition-transform duration-300 ease-in-out z-50 md:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
                         }`}
                     role="dialog"
                     aria-modal="true"
@@ -84,7 +84,7 @@ export default function Navigation() {
                         <div className="flex justify-end mb-4">
                             <button
                                 onClick={() => setIsOpen(false)}
-                                className="text-white focus:outline-none"
+                                className="text-primary-dark focus:outline-none"
                                 aria-label="Close menu"
                             >
                                 <FaTimes size={24} />
@@ -96,7 +96,7 @@ export default function Navigation() {
                                 <Link
                                     key={item.href}
                                     href={item.href}
-                                    className="text-white hover:text-gray-300 transition-colors duration-200"
+                                    className="text-primary-dark hover:text-gray-300 transition-colors duration-200"
                                     onClick={() => setIsOpen(false)}
                                 >
                                     {item.label}
@@ -104,7 +104,7 @@ export default function Navigation() {
                             ))}
                             <Link
                                 href="/donate"
-                                className="bg-indigo-700 hover:bg-blue-800 text-white px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-amber-500/50 font-bold text-center"
+                                className="bg-accent hover:bg-accent/90 text-primary-light px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-accent/50 font-bold text-center"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Donate
@@ -116,7 +116,7 @@ export default function Navigation() {
                 {/* Overlay for mobile menu */}
                 {isOpen && (
                     <div
-                        className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+                        className="fixed inset-0 bg-primary-light/50 backdrop-blur-sm z-40 md:hidden "
                         onClick={() => setIsOpen(false)}
                         aria-hidden="true"
                     />
