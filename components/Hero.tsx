@@ -17,13 +17,13 @@ export default function Hero() {
                         <div className="flex flex-row gap-4 justify-center md:justify-start">
                             <Link
                                 href="/live"
-                                className="flex-1 max-w-[200px] bg-accent hover:bg-accent-hover text-white px-4 sm:px-8 py-3 rounded-full font-semibold transition-colors duration-300 text-center text-sm sm:text-base"
+                                className="flex-1 max-w-[200px] bg-accent hover:bg-accent-hover text-white px-4 sm:px-8 py-3 rounded-full font-semibold transition-colors duration-300 flex items-center justify-center text-sm sm:text-base"
                             >
                                 Watch Now
                             </Link>
                             <Link
                                 href="/about"
-                                className="flex-1 max-w-[200px] bg-transparent border-2 border-white text-white px-4 sm:px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition-colors duration-300 text-center text-sm sm:text-base"
+                                className="flex-1 max-w-[200px] bg-transparent border-2 border-white text-white px-4 sm:px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition-colors duration-300 flex items-center justify-center text-sm sm:text-base"
                             >
                                 Learn More
                             </Link>
