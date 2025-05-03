@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <main>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-primary-dark mb-8">Welcome to Laramie 24x7</h1>
-        <div className="grid gap-8 text-white">
+      <Hero />
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid gap-12">
           <section>
             <h2 className="text-2xl font-semibold mb-4">Latest Updates</h2>
             <p className="text-gray-800">
