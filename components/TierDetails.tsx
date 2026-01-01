@@ -72,7 +72,7 @@ export default function TierDetails({ tier }: { tier: Tier }) {
                     </div>
 
                     <div className="bg-gray-50 rounded-xl p-6 md:p-8 border border-gray-100">
-                        <h3 className="text-2xl font-bold text-gray-800 mb-6">What's Included</h3>
+                        <h3 className="text-2xl font-bold text-gray-800 mb-6">What&apos;s Included</h3>
                         <div className="grid md:grid-cols-2 gap-4">
                             {tier.benefits.map((benefit, index) => (
                                 <div key={index} className="flex items-start bg-white p-3 md:p-4 rounded-lg shadow-sm">
