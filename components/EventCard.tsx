@@ -10,7 +10,7 @@ interface EventCardProps {
 const EventCard: React.FC<EventCardProps> = ({ event }) => {
     return (
         <Link href={`/event_board/${event.slug}`} className="group block bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border border-gray-100 flex flex-col h-full">
-            <div className="relative h-48 sm:h-56 w-full overflow-hidden">
+            <div className="relative w-full aspect-square overflow-hidden bg-gray-100">
                 <Image
                     src={event.image}
                     alt={event.title}
