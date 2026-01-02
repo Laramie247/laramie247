@@ -25,14 +25,14 @@ const EventBoardPage: React.FC = () => {
                 </div>
 
                 {/* Calendar Section */}
-                <div className="max-w-5xl mx-auto">
+                {/* <div className="max-w-5xl mx-auto">
                     <div className="flex items-center mb-8">
                         <div className="h-1 bg-gray-200 flex-grow rounded"></div>
                         <h2 className="text-3xl font-bold text-gray-800 px-8">Upcoming Dates</h2>
                         <div className="h-1 bg-gray-200 flex-grow rounded"></div>
                     </div>
                     <CommunityCalendar />
-                </div>
+                </div> */}
             </div>
         </main>
     );
