@@ -20,8 +20,8 @@ export const events: Event[] = [
         description: "Join us every month for an in-depth look at those who are making a difference in our community.",
         detailedDescription: "The Charity Roundup is our monthly spotlight on the unsung heroes of Laramie. Each episode, we sit down with the founders, volunteers, and beneficiaries of local non-profits to understand their mission, their struggles, and their triumphs. It's more than just an interview; it's a deep dive into the heart of our community's philanthropy. We highlight upcoming fundraisers, volunteer opportunities, and success stories that will restore your faith in humanity.",
         socials: [],
-        image: "/images/events/charity-roundup.png",
-        heroImage: "/images/events/charity-roundup.png",
+        image: "/images/events/charity-roundup.webp",
+        heroImage: "/images/events/charity-roundup.webp",
         frequency: "Monthly"
     },
     {
@@ -30,8 +30,8 @@ export const events: Event[] = [
         description: "Get ready to guffaw at the best comedy in town. Seasonal special with our own rodeo clown!",
         detailedDescription: "Step into the Chuckle Saloon, where the drinks are cold and the jokes are hot! This seasonal special brings the best local and regional stand-up talent to Laramie. Hosted by our very own resident rodeo clown, Buster, expect a night of raucous laughter, slapstick humor, and maybe a little bit of country charm. It's the perfect way to unwind and let loose. Warning: Side-splitting laughter may occur.",
         socials: [],
-        image: "/images/events/chuckle-saloon.png",
-        heroImage: "/images/events/chuckle-saloon.png",
+        image: "/images/events/chuckle-saloon.webp",
+        heroImage: "/images/events/chuckle-saloon.webp",
         frequency: "Seasonal"
     },
     {
@@ -55,11 +55,11 @@ export const events: Event[] = [
                 url: "https://www.facebook.com/PVALaramie/",
                 icon: "FaFacebook"
             },
-	    {
-		    name: "Youtube", 
-		    url: "https://www.youtube.com/@PVALaramie", 
-		    icon: "FaYoutube"
-	    }
+            {
+                name: "Youtube",
+                url: "https://www.youtube.com/@PVALaramie",
+                icon: "FaYoutube"
+            }
         ],
         image: "/images/events/pva-laramie.png",
         heroImage: "/images/events/pva-laramie.png",
@@ -71,12 +71,12 @@ export const events: Event[] = [
         description: "Every week, we stream live from our community center. Ask questions and learn about Laramie.",
         detailedDescription: "Our weekly City Council Stream brings the community center to your living room. It's an open forum where residents can engage directly with local officials, organizers, and each other. Have a question about a new development project? promoting a local event? This is the place. We believe in transparent communication and active civic engagement. Tune in, speak up, and be part of the solution.",
         socials: [
-		{
-		    name: "Youtube", 
-		    url: "https://www.youtube.com/user/cityoflaramie", 
-		    icon: "FaYoutube" 
-		}
-	],
+            {
+                name: "Youtube",
+                url: "https://www.youtube.com/user/cityoflaramie",
+                icon: "FaYoutube"
+            }
+        ],
         image: "/images/events/town-hall-stream.png",
         heroImage: "/images/events/town-hall-stream.png",
         frequency: "Weekly"
