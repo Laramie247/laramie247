@@ -83,7 +83,7 @@ export const tiers: Tier[] = [
             },
             {
                 title: "Studio Time + Gear",
-                description: "Monthly access to Blackmagic Design equipment and our staff to film your show"
+                description: "Monthly access to Blackmagic Design equipment and discounted rates from our staff to film your show"
             },
             {
                 title: "Swag Pack",
