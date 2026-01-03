@@ -75,6 +75,11 @@ export const events: Event[] = [
                 name: "Youtube",
                 url: "https://www.youtube.com/user/cityoflaramie",
                 icon: "FaYoutube"
+            },
+            {
+                name: "Facebook",
+                url: "https://www.facebook.com/CityOfLaramie",
+                icon: "FaFacebook"
             }
         ],
         image: "/images/events/town-hall-stream.png",
