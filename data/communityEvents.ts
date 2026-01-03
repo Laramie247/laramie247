@@ -68,8 +68,8 @@ export const events: Event[] = [
     {
         title: "City Council Stream",
         slug: "town-hall-stream",
-        description: "Every week, we stream live from our community center. Ask questions and learn about Laramie.",
-        detailedDescription: "Our weekly City Council Stream brings the community center to your living room. It's an open forum where residents can engage directly with local officials, organizers, and each other. Have a question about a new development project? promoting a local event? This is the place. We believe in transparent communication and active civic engagement. Tune in, speak up, and be part of the solution.",
+        description: "Every week, we stream live from city hall. Ask questions and learn about Laramie.",
+        detailedDescription: "Our weekly City Council Stream brings the city hall to your living room. It's an open forum where residents can engage directly with local officials, organizers, and each other. Have a question about a new development project? promoting a local event? This is the place. We believe in transparent communication and active civic engagement. Tune in, speak up, and be part of the solution.",
         socials: [
             {
                 name: "Youtube",
