@@ -25,6 +25,10 @@ const navigationItems: NavigationItem[] = [
         label: 'Membership',
         href: '/membership'
     },
+    {
+        label: 'Contact',
+        href: '/contact'
+    },
 
 
 ];
@@ -44,7 +48,7 @@ export default function Navigation() {
                     </div>
 
                     {/* Desktop Navigation with Live Broadcast */}
-                    <div className="hidden md:flex col-span-9 justify-end items-center">
+                    <div className="hidden lg:flex col-span-9 justify-end items-center">
                         <div className="flex items-center space-x-8">
                             <LiveBroadcastButton />
                             {navigationItems.map((item) => (
@@ -66,7 +70,7 @@ export default function Navigation() {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="block md:hidden col-span-9">
+                    <div className="block lg:hidden col-span-9">
                         <div className="flex justify-end">
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
@@ -82,7 +86,7 @@ export default function Navigation() {
 
                 {/* Mobile Navigation - Slide-out sidebar */}
                 <div
-                    className={`fixed top-0 right-0 h-full w-64 bg-primary-light transform transition-transform duration-300 ease-in-out z-50 md:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
+                    className={`fixed top-0 right-0 h-full w-64 bg-primary-light transform transition-transform duration-300 ease-in-out z-50 lg:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'
                         }`}
                     role="dialog"
                     aria-modal="true"
@@ -123,7 +127,7 @@ export default function Navigation() {
                 {/* Overlay for mobile menu */}
                 {isOpen && (
                     <div
-                        className="fixed inset-0 bg-primary-light/50 backdrop-blur-sm z-40 md:hidden "
+                        className="fixed inset-0 bg-primary-light/50 backdrop-blur-sm z-40 lg:hidden "
                         onClick={() => setIsOpen(false)}
                         aria-hidden="true"
                     />
