@@ -61,7 +61,9 @@ export default function Navigation() {
                                 </Link>
                             ))}
                             <Link
-                                href="/donate"
+                                href="https://www.paypal.com/us/fundraiser/charity/5150763"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="bg-accent hover:bg-accent/90 text-primary-light px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-accent/50 font-bold"
                             >
                                 Donate
@@ -114,7 +116,9 @@ export default function Navigation() {
                                 </Link>
                             ))}
                             <Link
-                                href="/donate"
+                                href="https://www.paypal.com/us/fundraiser/charity/5150763"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="bg-accent hover:bg-accent/90 text-primary-light px-6 py-2 rounded-full transition-all duration-300 shadow-xs hover:shadow-accent/50 font-bold text-center"
                                 onClick={() => setIsOpen(false)}
                             >
