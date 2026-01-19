@@ -11,6 +11,8 @@ export interface Event {
     image: string;
     heroImage: string;
     frequency: string;
+    isComingSoon?: boolean;
+    comingSoonTagline?: string;
 }
 
 export const events: Event[] = [
@@ -32,7 +34,7 @@ export const events: Event[] = [
         socials: [],
         image: "/images/events/chuckle-saloon.webp",
         heroImage: "/images/events/chuckle-saloon.webp",
-        frequency: "Seasonal"
+        frequency: "Monthly"
     },
     {
         title: "Equality State News",
@@ -42,7 +44,9 @@ export const events: Event[] = [
         socials: [],
         image: "/images/events/equality-state-news.png",
         heroImage: "/images/events/equality-state-news.png",
-        frequency: "Monthly"
+        frequency: "Monthly",
+        isComingSoon: true,
+        comingSoonTagline: "Quality journalism takes time and resources."
     },
     {
         title: "PVA Laramie Stream",

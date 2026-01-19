@@ -15,11 +15,26 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
                     src={event.image}
                     alt={event.title}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className={`object-cover transition-transform duration-500 ${event.isComingSoon ? 'grayscale brightness-[0.6]' : 'group-hover:scale-105'
+                        }`}
                 />
-                <div className="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-                    {event.frequency}
-                </div>
+                {event.isComingSoon && (
+                    <div className="absolute inset-0 flex items-center justify-center z-10">
+                        <span className="text-white font-black text-2xl uppercase tracking-widest drop-shadow-md border-4 border-white px-4 py-2 bg-black/30 backdrop-blur-sm -rotate-12">
+                            Coming Soon
+                        </span>
+                    </div>
+                )}
+                {!event.isComingSoon && (
+                    <div className="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+                        {event.frequency}
+                    </div>
+                )}
+                {event.isComingSoon && (
+                    <div className="absolute top-4 right-4 bg-gray-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md opacity-80">
+                        {event.frequency}
+                    </div>
+                )}
             </div>
             <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors">
